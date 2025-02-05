@@ -9,4 +9,7 @@ music player
      - advanced chooses Pong Music
     - [ ] Images related to music or theme, in Music Folder
     - [ ] Old Music player Code Folder, contains previous your music player
-- [ ] TBA
+- [ ] Complete Case study of Music player Button
+- [ ] Materials Design
+    - [ ] TBA
+    
