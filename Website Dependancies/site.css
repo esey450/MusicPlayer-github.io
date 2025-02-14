@@ -108,7 +108,7 @@ header {
 }
 
 .bg1 {
-	background-color: #ffe400;
+	background-color: #f3f2ecd0;
 }
 
 .bg2 {
@@ -128,7 +128,7 @@ iframe {
 
 footer {
 	height: 100px;
-	background-color: #001bff;
+	background-color: rgba(112, 174, 179, 0.893);
 }
 
 #complete {
