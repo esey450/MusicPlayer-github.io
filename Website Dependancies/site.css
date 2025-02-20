@@ -9,7 +9,7 @@
 
 	}
 	section {
-		background-color: hsla(62, 87%, 49%, 0.936);
+		background-color: blue;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 0;
@@ -32,8 +32,7 @@
 		flex: 1;
 	}
 	section { 
-	background-color:hsla(62, 87%, 49%, 0.936);
-	width: 100%;
+	background-color:yellow;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0;
@@ -51,12 +50,12 @@ body {
 	font-family: 'Roboto Slab', serif;
 	margin: 0;
 	padding: 0;
-	background-color: hsla(62, 87%, 49%, 0.936);
+	background-color:red;
 }
 
 h1 {
 	font-size: 3rem;
-	color: rgb(233, 11, 11);
+	color: white;
 	display: block;
 	text-align: center;
 }
@@ -73,7 +72,7 @@ h2,h3,h4 {
 
 p {
 	font-size: 1.4em;
-	color: rgb(236, 22, 22);
+	color:rgb(248, 29, 29);
 	padding: 10px 40px 10px 40px;
 }
 
@@ -99,7 +98,7 @@ img {
 
 
 header {
-	background-color: #eeee0e;
+	background-color: purple;
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-top: 20px;
@@ -107,15 +106,15 @@ header {
 }
 
 .bg1 {
-	background-color: #eeee0e;
+	background-color:yellow;
 }
 
 .bg2 {
-	background-color: #eeee0e;
+	background-color:yellow;
 }
 
 .bg3 {
-	background-color: #eeee0e;
+	background-color: grey;
 }
 
 iframe {
@@ -127,7 +126,7 @@ iframe {
 
 footer {
 	height: 100px;
-	background-color: hsla(62, 87%, 49%, 0.936);
+	background-color: blue;
 }
 
 #complete {
