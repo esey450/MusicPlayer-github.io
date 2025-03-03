@@ -80,7 +80,49 @@
 
   <!-- Loading JavaScript Last: why some pages load and don't seem to 'work' -->
   <script src='Website Dependancies/script.js'></script>
-
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tic Tac Toe Game</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      
+          <h1> My Music</h1>
+      
+  
+      <section id="game-board">
+          <div class="row">
+              <button class="cell" data-index="0"></button>
+              <button class="cell" data-index="1"></button>
+              <button class="cell" data-index="2"></button>
+          </div>
+          <div class="row">
+              <button class="cell" data-index="3"></button>
+              <button class="cell" data-index="4"></button>
+              <button class="cell" data-index="5"></button>
+          </div>
+          <div class="row">
+              <button class="cell" data-index="6"></button>
+              <button class="cell" data-index="7"></button>
+              <button class="cell" data-index="8"></button>
+          </div>
+      </section>
+  
+      <section id="music">
+          <h2> Ghost Walk</h2>
+          <audio controls>
+              <source src="Music/Ghost_Walk.mp3" type="audio/mp3">
+              Your browser does not support the audio element.
+          </audio>
+      </section>
+  
+      <script src="game.js"></script>
+  </body>
+  </html>
+  
 </body>
 <!--  -->
 
