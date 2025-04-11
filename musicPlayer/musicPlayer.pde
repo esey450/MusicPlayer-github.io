@@ -18,3 +18,6 @@ musicMenuX = appWidth*1/4
 musicMenuY = appHeight*1/4
 musicMenuWidth =
 musicMenuHeight =
+void m
+
+if ( key=='L' || key=='l' )
