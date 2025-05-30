@@ -12,7 +12,7 @@ String[] songNames = {
 int currentSong = 0;
 boolean isPlaying = false;
 
-// Button positions and sizes
+// Button dimensions and positions
 float btnW = 80, btnH = 40;
 float playX, playY;
 float prevX, nextX;
@@ -28,7 +28,7 @@ void setup() {
     playList[i] = minim.loadFile(songNames[i]);
   }
   
-  // Position buttons
+  // Setup buttons positions
   playX = width / 2 - btnW / 2;
   playY = height / 2 - btnH / 2;
   
@@ -42,7 +42,7 @@ void setup() {
 void draw() {
   background(50);
   
-  // Display current song name (remove file extension)
+  // Display current song name (without file extension)
   String displayName = songNames[currentSong].replace(".mp3", "");
   fill(255);
   text("Now Playing: " + displayName, width / 2, height / 4);
@@ -67,4 +67,16 @@ void draw() {
 }
 
 void mousePressed() {
-  // Play/Pause
+  if (mouseX > playX && mouseX < playX + btnW &&
+      mouseY > playY && mouseY < playY + btnH) {
+    if (isPlaying) {
+      playList[currentSong].pause();
+      isPlaying = false;
+    } else {
+      playList[currentSong].play();
+      isPlaying = true;
+    }
+  }
+  
+  if (mouseX > prevX && mouseX < prevX + btnW &&
+      mouseY > playY && mouseY < pl
